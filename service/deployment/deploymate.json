@@ -1,0 +1,13 @@
+{
+    "appId":"/jd/image-scoring-service/v1",
+    "environment": {
+        "MONGO_HOST": "mongodb://172.30.73.64/scoring",
+        "MONGO_DB_NAME": "scoring"
+    },
+    "port": 3000,
+    "healthCheckPath": "/healthcheck",
+    "memory": 512,
+    "stripPrefix": true,
+    "providesMetrics": true,
+    "repositoryUrl": "https://github.hc.ag/jduncan/image-scoring-service"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "scoring-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/index.html",
+    "start": "parcel src/index.html",
+    "build": "rm -rf ./dist && parcel build src/index.html  --public-url ./",
+    "deploy": "./deployment/deploy.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "node-sass": "^4.9.3",
+    "parcel-bundler": "^1.9.7"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "just-debounce": "^1.0.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-input-range": "^1.3.0",
+    "store": "^2.0.12",
+    "uuid": "^3.3.2"
+  }
+}
